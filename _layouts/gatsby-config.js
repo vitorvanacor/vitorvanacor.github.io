@@ -3,13 +3,12 @@ const path = require('path')
 const PATH_PREFIX = process.env.PATH_PREFIX
 
 module.exports = {
-  // pathPrefix: PATH_PREFIX || `/foam-template-gatsby-kb`, // a. If you are using github pages, this should be the name of your repo
-  pathPrefix: PATH_PREFIX || `/`, // b. If you are using Netlify/Vercel, your can keep it this way
+  pathPrefix: `/vitorvanacor.github.io`, // b. If you are using Netlify/Vercel, your can keep it this way
   siteMetadata: {
     // some SEO configs using by gatsby-theme-kb
-    title: `Foam`, // Replace it with your site's title
-    author: `Your Name`, // Replace it with your name
-    description: `My personal knowledge base`, // Replace it with your site's description
+    title: `Vitor Vanacor`, // Replace it with your site's title
+    author: `Vitor Vanacor`, // Replace it with your name
+    description: `My personal website`, // Replace it with your site's description
   },
   plugins: [
     {
@@ -32,7 +31,7 @@ module.exports = {
             options: {
               ignoreFileExtensions: ['md', 'mdx'],
             },
-          })
+          });;;
 
           // an example of syntax highlighting
           defaultPluginMdx.options.gatsbyRemarkPlugins.push({
@@ -40,8 +39,8 @@ module.exports = {
             options: {
               noInlineHighlight: true,
             },
-          })
-          return defaultPluginMdx
+          });;;
+          return defaultPluginMdx;;;
         },
       },
     },
@@ -58,4 +57,4 @@ module.exports = {
       },
     },
   ],
-}
+};
