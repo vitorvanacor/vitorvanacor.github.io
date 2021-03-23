@@ -1,0 +1,28 @@
+# Publishing Foam: Journal
+
+- Analisys paralysis is keeping me from starting to write my thoughts, so I don't want to spend a lot of time fiddling with the published website; having content is much more important in this early stage.
+- At first I considered using the default foam template, because it is the option with the least friction.
+- But I already know some of the features I would like my published website to eventually have, so if I found a template that is easy to install and have those, it would be nice.
+- Some of these features are:
+  - Dark theme
+  - Search
+  - Backlinks
+- The templates that caught my attention were:
+  - foamy-nextjs
+    - I'm interested in learning Next.js, that's what I liked about this
+    - It has MDX support, which is nice
+    - But the website is very barebones: no dark theme, no search, no backlink
+    - [[Maybe]] I'll reconsider using it when I decide to dive into personalizing the website
+  - foam-mkdocs-template
+    - I really like the looks and the structure:
+      - navigation on the left
+      - Table of Contents on the right (that even highlights the current section, which is great!)
+    - It also has a nice built-in search
+    - I haven't tried to, but customization seems simple enough, so maybe I could add the Dark Theme without much effort
+    - Unfortunatelly, no out-of-the-box backlink support
+  - foam-gatsby-template
+    - I'm not a big fan of Gatsby, but my opinion is mostly "impression-based", so I might give it a try
+    - It has dark theme, search **and** backlink!
+    - The page stack thing is also nice
+  - Therefore, I've decided to start with the latest. [[Foam Gatsby Template: Journal]]
+  - In the same day, I found another gatsby template: foam-template-gatsby-kb
