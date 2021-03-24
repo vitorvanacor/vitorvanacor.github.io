@@ -3,7 +3,7 @@ const path = require('path')
 const PATH_PREFIX = process.env.PATH_PREFIX
 
 module.exports = {
-  pathPrefix: `/vitorvanacor.github.io`, // b. If you are using Netlify/Vercel, your can keep it this way
+  pathPrefix: `/`, // b. If you are using Netlify/Vercel, your can keep it this way
   siteMetadata: {
     // some SEO configs using by gatsby-theme-kb
     title: `Vitor Vanacor`, // Replace it with your site's title
@@ -31,7 +31,7 @@ module.exports = {
             options: {
               ignoreFileExtensions: ['md', 'mdx'],
             },
-          });;;
+          });
 
           // an example of syntax highlighting
           defaultPluginMdx.options.gatsbyRemarkPlugins.push({
@@ -39,8 +39,8 @@ module.exports = {
             options: {
               noInlineHighlight: true,
             },
-          });;;
-          return defaultPluginMdx;;;
+          });
+          return defaultPluginMdx;
         },
       },
     },
